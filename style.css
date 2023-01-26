@@ -66,6 +66,14 @@ button:active{
 
 .mision{
     display: inline-block;
-    width: 70%;
-    left: 1000px;
+    text-align: justify;
+    position: absolute;
+    left: 200px;
+}
+
+.contacto{
+    display: inline-block;
+    position: absolute;
+    left: 250px;
+    top: 450px;
 }
