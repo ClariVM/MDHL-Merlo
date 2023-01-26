@@ -11,5 +11,7 @@
 
 
 #banner {
+    width: 1500px;
+    height: 500px;
     max-width: 100%;
 }
