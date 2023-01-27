@@ -1,4 +1,7 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Comic Neue', cursive;
 }
 
@@ -15,22 +18,25 @@ p {
 
 
 #banner {
-    width: 1500px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
+    object-position: 0px -200px;
 }
 
-nav {
-    position: absolute;
-    right: 35px;
-    top: 60px;
-}
-
-button{
+nav a{
     background-color:#4472c4;
     color:#fff;
     box-shadow: 2px 5px 0px 0px #999999;
     font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #000000;
+}
+nav{
+    position: absolute;
+    display: inline-block;
+    right: 35px;
+    top: 55px;
 }
 button:active{
     background-color: #70ad47;
@@ -49,7 +55,7 @@ button:active{
 #titulo-secundario{
     text-align: center;
     border: 2px solid #000;
-    width: 1500px;
+    width: 100%;
     margin-top: 2px;
 }
 
@@ -62,6 +68,7 @@ button:active{
     display: inline-block;
     position: absolute;
     left: 250px;
+    margin: 25px;
 }
 
 .mision{
@@ -69,11 +76,12 @@ button:active{
     text-align: justify;
     position: absolute;
     left: 200px;
+    margin: 25px;
 }
 
 .contacto{
     display: inline-block;
     position: absolute;
     left: 250px;
-    top: 450px;
+    margin: 25px;
 }
