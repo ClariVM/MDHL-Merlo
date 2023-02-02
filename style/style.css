@@ -69,7 +69,7 @@ nav div a:hover {
 #titulo-secundario {
     position: absolute;
     top: 330px;
-    right: 412px;
+    right: 600px;
     font-size: 80px;
     letter-spacing: -2px;
     color: #000;
@@ -99,6 +99,42 @@ nav div a:hover {
 .banner:hover #titulo-secundario{
     opacity: 0;
 }
+.about-us{
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #f8e12e;
+    text-align: center;
+    position: absolute;
+    top: 290px;
+    right:10px;
+    opacity: 0;
+
+}
+
+.banner:hover .about-us{
+    opacity: 1;
+    transition-duration: 3s;
+    transform: scale(0.9);
+}
+.contacto{
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #f8e12e;
+    text-align: center;
+    position: absolute;
+    top: 350px;
+    right:650px;
+    opacity: 0;
+
+}
+.banner:hover .contacto{
+    opacity: 1;
+    transition-duration: 3s;
+    transform: scale(2);
+}
+
  footer{
     text-align: center;
  }
+
+ 
