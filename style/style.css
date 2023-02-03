@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -178,7 +178,7 @@ footer {
     position: absolute;
     top: 400px;
     margin: 40px;
-    font-size:120%;
+    font-size: 120%;
     font-weight: 500;
 }
 
@@ -192,9 +192,9 @@ dt {
 
 /*game information*/
 
-.img-info-rules img{
-max-width: 100%;
-opacity: 0.4;
+.img-info-rules img {
+    max-width: 100%;
+    opacity: 0.4;
 }
 
 table {
@@ -248,4 +248,3 @@ tfoot {
     background: rgb(198, 72, 50);
     background: linear-gradient(11deg, rgba(198, 72, 50, 0.499124649859944) 0%, rgba(248, 225, 46, 0.7316176470588236) 50%, rgba(95, 161, 153, 1) 100%);
 }
-
