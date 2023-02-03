@@ -6,29 +6,25 @@
 
 }
 
-/*navbar*/
-
-.container {
+.contenedor{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
     background-color: #000;
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
-
-.logo {
-    height: 100px;
+.logo{
+    height:100px;
 }
 nav div{
-    margin: 10px;
+    margin:10px;
 }
-
-.titulo {
-    font-size: 25px;
+.titulo{
+    font-size:25px;
     letter-spacing: -2px;
     color: #000;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f8e12e, 0 0 25px #f8e12e;
@@ -36,13 +32,11 @@ nav div{
     -webkit-text-stroke-color: #000;
     -webkit-text-stroke-width: 0.7px;
 }
-
-nav div a {
+nav div a{
     color: #f8e12e;
     text-decoration: none;
 }
-
-nav div a:hover {
+nav div a:hover{
     color: #000;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f8e12e, 0 0 25px #f8e12e;
     -webkit-text-fill-color: #f8e12e;
@@ -50,18 +44,7 @@ nav div a:hover {
     -webkit-text-stroke-width: 0.1px;
 }
 
-/*banner y body*/
-
-.banner {
-    display: flex;
-}
-
-.banner img {
-    width: 100%;
-    opacity: 0.5;
-}
-
-#titulo-secundario {
+.banner .titulo-hover{
     position: absolute;
     top: 330px;
     right: 600px;
@@ -74,9 +57,12 @@ nav div a:hover {
     -webkit-text-stroke-width: 1px;
 }
 
-/* home */
+.banner img{
+    width: 100%;
+    opacity: 0.5;
+}
 
-.contenedor-calendario {
+.contenedorcalendario{
     display: inline-block;
     border: 1px solid #000;
     background-color: #f8e12e;
@@ -85,22 +71,22 @@ nav div a:hover {
     top: 350px;
     right: 500px;
     opacity: 0;
-
 }
-
-.banner:hover .contenedor-calendario {
+.banner:hover .contenedorcalendario {
     opacity: 1;
     transition-duration: 3s;
     transform: scale(2);
 }
 
-.banner:hover #titulo-secundario {
+.banner:hover .titulo-hover {
     opacity: 0;
 }
-
-/*about us*/
-
-.about-us {
+footer {
+    text-align: center;
+    background-color: #f8e12e;
+    bottom: 0;
+}
+.about-us{
     display: inline-block;
     border: 1px solid #000;
     background-color: #f8e12e;
@@ -117,9 +103,6 @@ nav div a:hover {
     transition-duration: 3s;
     transform: scale(0.9);
 }
-
-/*contacto*/
-
 .contacto {
     display: inline-block;
     border: 1px solid #000;
@@ -138,14 +121,6 @@ nav div a:hover {
     transform: scale(2);
 }
 
-footer {
-    text-align: center;
-    background-color: #f8e12e;
-    position: relative;
-    bottom: 0;
-}
-
-/*reglas*/
 
 .titulo-reglas-info {
     background-color: #f8e12e;
@@ -180,7 +155,6 @@ dt {
     list-style-type: lower-alpha;
 }
 
-/*game information*/
 
 .img-info-rules img {
     max-width: 100%;
