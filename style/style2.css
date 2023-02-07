@@ -81,10 +81,10 @@ nav div a:hover{
 .banner:hover .titulo-hover {
     opacity: 0;
 }
-footer {
+footer { 
     text-align: center;
     background-color: #f8e12e;
-    bottom: 0;
+   
 }
 .about-us{
     display: inline-block;
@@ -122,6 +122,7 @@ footer {
 }
 
 
+
 .titulo-reglas-info {
     background-color: #f8e12e;
     color: #5fa199;
@@ -130,21 +131,34 @@ footer {
     -webkit-text-stroke-width: 1px;
     margin: 20px;
     text-align: center;
+    
+    
 }
 
 .rules-info {
-    position: absolute;
-    top: 250px;
-    left: 530px;
-    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
 }
 
 .list-rules {
-    position: absolute;
-    top: 400px;
+   display: flex;
+   flex-direction: column;
     margin: 40px;
     font-size: 120%;
     font-weight: 500;
+    
+}
+
+/*game info*/
+
+.contenedor-tablas{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 dt {
@@ -161,12 +175,6 @@ dt {
     opacity: 0.5;
 }
 
-table {
-    position: absolute;
-    left: 90px;
-    top: 260px;
-
-}
 
 caption {
     font-size: 30px;
@@ -205,9 +213,8 @@ tfoot {
 }
 
 .info {
-    position: absolute;
-    right: 90px;
-    top: 295px;
+    display: flex;
+    flex-direction: column;
     padding: 15px;
     background: rgb(198, 72, 50);
     background: linear-gradient(11deg, rgba(198, 72, 50, 0.499124649859944) 0%, rgba(248, 225, 46, 0.7316176470588236) 50%, rgba(95, 161, 153, 1) 100%);
@@ -261,3 +268,39 @@ legend{
 #uniform-size{
     margin-left: 20px;
 }
+
+/*MAPAS*/
+
+.contenedor-mapas{
+    display: flex;
+    flex-wrap: wrap;
+   margin: 50px;
+   margin-bottom: 150px;
+   justify-content: space-around;
+   align-self: center;
+}
+
+.item-mapa{
+    background-color: #f8e12e;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding:50px 0px;
+    box-shadow: 8px 10px 20px -2px #000;
+}
+.item-mapa svg{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+iframe{
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+}
+.item-mapa:hover iframe {
+    opacity: 1;
+    transition-duration: 3s;
+}
+
+
