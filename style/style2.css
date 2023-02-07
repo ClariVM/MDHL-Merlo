@@ -146,10 +146,11 @@ footer {
 .list-rules {
    display: flex;
    flex-direction: column;
-    margin: 40px;
     font-size: 120%;
     font-weight: 500;
-    
+}
+.fondo{
+    background-image: url("../assets/hockey_2.jpeg");
 }
 
 /*game info*/
@@ -227,9 +228,10 @@ tfoot {
     justify-content: center;
     align-items: center;
     background: linear-gradient(11deg, rgba(198, 72, 50, 0.499124649859944) 0%, rgba(248, 225, 46, 0.7316176470588236) 50%, rgba(95, 161, 153, 1) 100%);
-    margin: 0px 400px;
     box-shadow: 18px 18px 15px -2px rgba(153,153,153,1);
     margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 fieldset{
