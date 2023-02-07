@@ -212,3 +212,45 @@ tfoot {
     background: rgb(198, 72, 50);
     background: linear-gradient(11deg, rgba(198, 72, 50, 0.499124649859944) 0%, rgba(248, 225, 46, 0.7316176470588236) 50%, rgba(95, 161, 153, 1) 100%);
 }
+
+/*FORM*/
+#contenedor-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(11deg, rgba(198, 72, 50, 0.499124649859944) 0%, rgba(248, 225, 46, 0.7316176470588236) 50%, rgba(95, 161, 153, 1) 100%);
+    margin: 0px 400px;
+    box-shadow: 18px 18px 15px -2px rgba(153,153,153,1);
+    margin-bottom: 40px;
+}
+
+fieldset{
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #fff
+}
+legend{
+    font-weight: bold;
+}
+#closest-school-title{
+    font-weight: bold;
+}
+.botones{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+.botones button{
+    width: 100px;
+    padding: 2px;
+    margin: 10px;
+    color: #fff;
+    background-color: #000;
+    font-size: medium;
+    box-shadow: 8px 10px 20px -2px #000
+}
+.botones button:hover{
+    background-color: #f8e12e;
+    color: #000;
+}
